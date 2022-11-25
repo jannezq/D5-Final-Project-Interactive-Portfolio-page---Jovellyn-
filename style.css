@@ -157,6 +157,16 @@ p {
     background-color: #f3d8d3;
 }
 
+#section-two {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff2f0;
+}
+
 .education {
     right: -1100px;
     padding-top: 600px;
@@ -166,10 +176,25 @@ p {
     display: inline-block;
 }
 
+.experience {
+    margin-top: -120px;
+    padding-left: 4%;
+    position: relative;
+    width: 100%;
+    height: 302px;
+    display: inline-block;
+}
+
 .education h2 {
     font-size: 200px;
     color: #95726c;
 }
+
+.experience h2 {
+    font-size: 200px;
+    color: #95726c;
+}
+
 
 #section-one .edu-one {
     width: 774px;
@@ -185,6 +210,13 @@ p {
     right: 50px;
 }
 
+#section-two .exp-one {
+    width: 774px;
+    position: absolute;
+    top: 233px;
+    right: 1266px;
+}
+
 .school {
     font-size: 40px;
     padding-left: 40px;
@@ -194,6 +226,33 @@ p {
 .school2 {
     text-align: right;
     font-size: 40px;
+    padding-left: 40px;
+    margin-bottom: -15px;
+}
+
+.title {
+    font-size: 40px;
+    padding-left: 40px;
+    margin-bottom: -15px;
+}
+
+.title2 {
+    text-align: right;
+    font-size: 40px;
+    padding-left: 40px;
+    margin-bottom: -15px;
+}
+
+.where2 {
+    text-align: right;
+    font-size: 25px;
+    padding-left: 45px;
+    margin-bottom: -15px;
+}
+
+.where {
+    text-align: left;
+    font-size: 25px;
     padding-left: 40px;
     margin-bottom: -15px;
 }
@@ -213,6 +272,11 @@ p {
 }
 
 .listing {
+    margin-left: 30px;
+    padding-left: 40px;
+}
+
+.listing3 {
     margin-left: 30px;
     padding-left: 40px;
 }
@@ -246,10 +310,32 @@ p {
     transition: all 1s;
 }
 
+.experience-img {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.experience-img-2 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+
 .education-img:hover,
-.education-img-2:hover {
+.education-img-2:hover,
+.experience-img:hover {
     width: 600px;
-    height: 364px;
+    height: 460px;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgb(0, 0, 0, 40%)
 }
@@ -263,6 +349,14 @@ p {
 }
 
 .education-img-2:hover .overlay {
+    position: absolute;
+    background-color: #161d24;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.experience-img:hover .overlay {
     position: absolute;
     background-color: #161d24;
     opacity: 1;
@@ -298,6 +392,27 @@ ul.listing {
 
 ul.listing2 {
     list-style: circle;
+}
+
+
+
+.exp-one .experience-img {
+    margin-top: 65px;
+    margin-left: 250px;
+}
+
+.exp-one .experience-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.edu-one .education-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .edu-one .education-img {
