@@ -43,6 +43,7 @@ h1 {
     margin-top: -8%;
     transition: border-radius 500ms linear 1.2ms;
     border: 2px dotted #40353e;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 20%);
 }
 
 .about-image img {
@@ -203,22 +204,20 @@ p {
 
 /*education section*/
 .nav-cards.education {
-    margin-top: 5%;
+    margin-top: 2%;
     position: relative;
     display: inline-block;
     overflow: hidden;
     margin-left: 10%;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
     transition: all 1s;
 
 }
 
 .nav-cards.education:hover {
-    width: 500px;
-    height: 600px;
-    border-radius: 20px;
+
     box-shadow: 0 10px 20px rgb(0, 0, 0, 40%);
 }
 
